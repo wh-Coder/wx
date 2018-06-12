@@ -42,6 +42,9 @@ Page({
         }
       })
     }
+    this.setData({
+      motto: 'jiajia'
+    })
   },
   getUserInfo: function(e) {
     console.log(e)
